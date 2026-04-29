@@ -196,7 +196,7 @@ const Chat = () => {
   });
   const [isLoading, setIsLoading] = useState(false);
   const [dark, setDark] = useState(true);
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(window.innerWidth > 768);
   const [isListening, setIsListening] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
@@ -553,7 +553,7 @@ const Chat = () => {
             initial={{ x: -300, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: -300, opacity: 0 }}
-            className={`w-72 h-full flex-shrink-0 flex flex-col border-r ${dark ? 'bg-[#0a0a0f] border-white/10' : 'bg-white border-slate-200'} z-50`}
+            className={`fixed md:relative w-72 h-full flex-shrink-0 flex flex-col border-r ${dark ? 'bg-[#0a0a0f] border-white/10' : 'bg-white border-slate-200'} z-[60] shadow-2xl md:shadow-none`}
           >
             <div className="p-6 flex items-center justify-between">
               <button onClick={() => navigate('/')} className="flex items-center gap-3 hover:opacity-80 transition-opacity text-left">
@@ -675,10 +675,17 @@ const Chat = () => {
         {/* Top Header */}
         <header className={`h-16 flex items-center justify-between px-6 border-b ${dark ? 'border-white/10 bg-[#050508]/80' : 'bg-white/80 border-slate-200'} backdrop-blur-md sticky top-0 z-40`}>
           <div className="flex items-center gap-4">
+            <button 
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+              className={`p-2 rounded-xl transition-all md:hidden ${dark ? 'hover:bg-white/10 text-slate-400 hover:text-white' : 'hover:bg-slate-100 text-slate-500 hover:text-slate-900'}`}
+              title="Toggle Sidebar"
+            >
+              <Menu className="w-5 h-5" />
+            </button>
             {!sidebarOpen && (
               <button 
                 onClick={() => setSidebarOpen(true)}
-                className={`p-2 rounded-xl transition-all ${dark ? 'hover:bg-white/10 text-slate-400 hover:text-white' : 'hover:bg-slate-100 text-slate-500 hover:text-slate-900'}`}
+                className={`p-2 rounded-xl transition-all hidden md:block ${dark ? 'hover:bg-white/10 text-slate-400 hover:text-white' : 'hover:bg-slate-100 text-slate-500 hover:text-slate-900'}`}
                 title="Expand Sidebar"
               >
                 <Menu className="w-5 h-5" />

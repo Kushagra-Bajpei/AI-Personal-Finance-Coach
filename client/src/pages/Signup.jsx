@@ -163,16 +163,23 @@ export default function Signup() {
             {errors.agreed && <div className="flex items-center gap-1 mt-1.5 text-red-400 text-xs"><AlertCircle className="w-3 h-3" />{errors.agreed}</div>}
           </div>
 
-          <motion.button
+          <button
             type="submit"
-            id="signup-submit"
             disabled={loading}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-violet-600 to-cyan-500 text-white font-semibold hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all duration-300 disabled:opacity-60"
+            className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-bold shadow-lg shadow-violet-500/25 hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-3"
           >
-            {loading ? <><Loader className="w-4 h-4 animate-spin" />Creating Account...</> : 'Create Account — Free'}
-          </motion.button>
+            {loading ? (
+              <>
+                <Loader className="w-5 h-5 animate-spin" />
+                <span>Waking up server... (can take 50s)</span>
+              </>
+            ) : (
+              <>
+                Create Account
+                <ArrowRight className="w-5 h-5" />
+              </>
+            )}
+          </button>
         </form>
 
         <p className={`text-center text-sm mt-6 ${dark ? 'text-slate-500' : 'text-slate-500'}`}>
