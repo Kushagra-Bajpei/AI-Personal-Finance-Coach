@@ -16,11 +16,10 @@
 
 | Dashboard Overview | AI Chat Interface | Pricing & Plans |
 | :---: | :---: | :---: |
-| ![Dashboard](https://placehold.co/600x400?text=Dashboard+Screenshot) | ![AI Chat](https://placehold.co/600x400?text=AI+Chat+Screenshot) | ![Pricing](https://placehold.co/600x400?text=Pricing+Screenshot) |
-
+| ![Dashboard](./screenshots/dashboard.png) | ![AI Chat](./screenshots/chat.png) | ![Pricing](./screenshots/pricing.png) |
 | Mobile Responsive | Login Page | Analysis View |
 | :---: | :---: | :---: |
-| ![Mobile](https://placehold.co/600x400?text=Mobile+View) | ![Login](https://placehold.co/600x400?text=Login+View) | ![Analysis](https://placehold.co/600x400?text=Analysis+View) |
+| ![Mobile](./screenshots/mobile.png) | ![Login](./screenshots/login.png) | ![Analysis](./screenshots/analysis.png) |
 
 ---
 
@@ -70,6 +69,7 @@
 
 ```text
 Ai Personal Finance Coach/
+├── screenshots/            # Project showcase images
 ├── client/                 # React Frontend
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
@@ -81,7 +81,8 @@ Ai Personal Finance Coach/
 │   ├── models/             # Mongoose Schemas (User, Transaction, Chat)
 │   ├── routes/             # API Endpoints
 │   └── middleware/         # Auth verification and error handling
-└── .gitignore              # Unified project exclusions
+├── .gitignore              # Unified project exclusions
+└── README.md               # Project documentation
 ```
 
 ---
