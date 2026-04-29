@@ -7,67 +7,67 @@ import PublicLayout from '../layouts/PublicLayout';
 const posts = [
   {
     slug: '#',
-    category: 'Research',
+    category: 'Finance Strategy',
     categoryColor: 'text-violet-400 bg-violet-500/10 border-violet-500/20',
-    title: 'The Science of Dream Interpretation: How AI Reads Your Subconscious',
-    excerpt: 'Explore the neuroscience behind dreaming and how modern language models are being trained to decode the symbolic language of the sleeping mind.',
-    author: 'Dr. Maya Lin',
-    date: 'April 15, 2026',
+    title: 'The AI Revolution in Personal Finance: Beyond Simple Budgeting',
+    excerpt: 'Discover how artificial intelligence is moving from simple expense tracking to predictive wealth management and personalized coaching.',
+    author: 'Dr. Sarah Chen',
+    date: 'April 25, 2026',
     readTime: '8 min read',
     gradient: 'from-violet-500 to-purple-600',
   },
   {
     slug: '#',
-    category: 'Art & Creativity',
+    category: 'Market Trends',
     categoryColor: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
-    title: 'How Digital Artists Are Using WealthWise to Break Creative Blocks',
-    excerpt: 'A deep dive into the workflows of professional creators who have integrated AI dream visualization into their daily practice.',
-    author: 'Carlos Menem',
-    date: 'April 10, 2026',
+    title: 'How Gen Z is Redefining Wealth with AI-Powered Tools',
+    excerpt: 'A deep dive into why the younger generation is ditching traditional banks for algorithm-driven financial advisors and real-time coaching.',
+    author: 'Marcus J. Miller',
+    date: 'April 20, 2026',
     readTime: '5 min read',
     gradient: 'from-cyan-500 to-blue-600',
   },
   {
     slug: '#',
-    category: 'Wellness',
+    category: 'Smart Saving',
     categoryColor: 'text-pink-400 bg-pink-500/10 border-pink-500/20',
-    title: 'Dream Journaling in the Age of AI: A New Approach to Self-Discovery',
-    excerpt: 'How combining traditional dream journaling with AI visualization is helping people gain deeper insight into their emotions and thought patterns.',
-    author: 'Sarah Bloom',
-    date: 'April 4, 2026',
+    title: 'Psychology of Spending: How AI Helps You Break Bad Habits',
+    excerpt: 'Understanding the emotional triggers behind impulse purchases and how behavioral AI can nudge you toward long-term financial freedom.',
+    author: 'Elena Rodriguez',
+    date: 'April 14, 2026',
     readTime: '6 min read',
     gradient: 'from-pink-500 to-rose-600',
   },
   {
     slug: '#',
-    category: 'Product',
+    category: 'Product Updates',
     categoryColor: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
-    title: 'Introducing Multi-Scene Dreams: Visualize Full Dream Narratives',
-    excerpt: 'We\'ve just shipped one of our most requested features — the ability to visualize multiple scenes from a single dream as a cohesive visual sequence.',
+    title: 'Introducing WealthWise Pro: Real-time Bank Integration and Forecasts',
+    excerpt: 'We\'ve just shipped our biggest update yet — seamless bank sync and AI-powered 12-month financial forecasting to help you plan ahead.',
     author: 'WealthWise Team',
-    date: 'March 28, 2026',
+    date: 'April 10, 2026',
     readTime: '3 min read',
     gradient: 'from-amber-500 to-orange-500',
   },
   {
     slug: '#',
-    category: 'Psychology',
+    category: 'Security',
     categoryColor: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
-    title: 'Recurring Dreams and What They Mean: A Therapist\'s Perspective',
-    excerpt: 'Clinical psychologist Dr. Marcus Rivera discusses how recurring dreams signal unresolved emotional experiences and how visualization can aid in processing them.',
-    author: 'Dr. Marcus Rivera',
-    date: 'March 20, 2026',
+    title: 'Protecting Your Data: Why Bank-Grade Encryption Isn\'t Enough',
+    excerpt: 'Our Chief Security Officer discusses our zero-knowledge architecture and how we ensure your financial data remains yours alone.',
+    author: 'David Vance',
+    date: 'April 02, 2026',
     readTime: '7 min read',
     gradient: 'from-emerald-500 to-teal-600',
   },
   {
     slug: '#',
-    category: 'Technology',
+    category: 'AI Engineering',
     categoryColor: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20',
-    title: 'Behind the Model: How WealthWise\'s AI Understands Dream Symbolism',
-    excerpt: 'A technical deep dive into the architecture and training methodology that powers our dream interpretation engine.',
+    title: 'Behind the Intelligence: How We Train Our Financial Models',
+    excerpt: 'A technical look into the transformer models that power our AI coach and how we achieve 98% accuracy in transaction categorization.',
     author: 'WealthWise AI Team',
-    date: 'March 12, 2026',
+    date: 'March 25, 2026',
     readTime: '10 min read',
     gradient: 'from-indigo-500 to-blue-600',
   },
@@ -88,10 +88,10 @@ export default function Blog() {
               Blog & Insights
             </span>
             <h1 className={`font-display text-5xl sm:text-6xl font-bold mb-6 ${dark ? 'text-white' : 'text-slate-900'}`}>
-              Stories from the <span className="gradient-text">dream world</span>
+              Master your <span className="gradient-text">financial world</span>
             </h1>
             <p className={`text-xl leading-relaxed ${dark ? 'text-slate-400' : 'text-slate-600'}`}>
-              Insights on AI, creativity, psychology, and the art of understanding your inner world.
+              Insights on AI, wealth management, smart budgeting, and the future of personal finance.
             </p>
           </FadeIn>
         </div>

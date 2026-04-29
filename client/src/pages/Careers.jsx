@@ -6,38 +6,38 @@ import PublicLayout from '../layouts/PublicLayout';
 
 const openings = [
   {
-    title: 'Senior AI/ML Engineer',
-    team: 'Engineering',
+    title: 'Fintech Product Manager',
+    team: 'Product',
     location: 'Remote (Global)',
     type: 'Full-time',
     gradient: 'from-violet-500 to-purple-600',
   },
   {
-    title: 'Product Designer (UI/UX)',
-    team: 'Design',
+    title: 'Senior AI Engineer (FinLLM)',
+    team: 'Engineering',
     location: 'Remote (Global)',
     type: 'Full-time',
     gradient: 'from-cyan-500 to-blue-600',
   },
   {
-    title: 'Full Stack Engineer (React + Node)',
+    title: 'Full Stack Engineer (MERN)',
     team: 'Engineering',
     location: 'Remote (Global)',
     type: 'Full-time',
     gradient: 'from-pink-500 to-rose-600',
   },
   {
-    title: 'Content & Community Manager',
+    title: 'Financial Content Strategist',
     team: 'Marketing',
     location: 'Remote (Global)',
     type: 'Part-time',
     gradient: 'from-amber-500 to-orange-500',
   },
   {
-    title: 'Dream Research Consultant',
-    team: 'Research',
+    title: 'Customer Success (Finance Specialist)',
+    team: 'Support',
     location: 'Remote (Global)',
-    type: 'Contract',
+    type: 'Full-time',
     gradient: 'from-emerald-500 to-teal-600',
   },
 ];
@@ -45,7 +45,7 @@ const openings = [
 const perks = [
   { icon: Heart, title: 'Health & Wellbeing', desc: 'Comprehensive medical, dental, and vision coverage for you and your family.' },
   { icon: Zap, title: 'Flexible Work', desc: 'Fully remote-first culture with async-friendly hours and flexible schedules.' },
-  { icon: Globe, title: 'Learning Budget', desc: '$2,000/year for courses, books, conferences, and personal development.' },
+  { icon: Globe, title: 'Learning Budget', desc: '$2,000/year for finance certifications, courses, and conferences.' },
 ];
 
 export default function Careers() {
@@ -60,12 +60,12 @@ export default function Careers() {
           <FadeIn>
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold text-violet-400 bg-violet-500/10 border border-violet-500/20 mb-6">
               We're Hiring
-            </span>
+             </span>
             <h1 className={`font-display text-5xl sm:text-6xl font-bold mb-6 ${dark ? 'text-white' : 'text-slate-900'}`}>
-              Build the future of <span className="gradient-text">dreaming</span>
+              Build the future of <span className="gradient-text">finance</span>
             </h1>
             <p className={`text-xl leading-relaxed ${dark ? 'text-slate-400' : 'text-slate-600'}`}>
-              Join a passionate, remote-first team on a mission to turn the world's dreams into breathtaking visual reality.
+              Join a passionate, remote-first team on a mission to democratize professional financial advice through state-of-the-art AI.
             </p>
           </FadeIn>
         </div>
