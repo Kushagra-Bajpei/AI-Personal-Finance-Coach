@@ -1,4 +1,4 @@
-import { Sparkles, Zap, Shield, Bug } from 'lucide-react';
+import { CheckCircle2, TrendingUp, ShieldCheck, Wrench, Clock, User } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { FadeIn, StaggerChildren, StaggerItem } from '../components/AnimationWrappers';
 import PublicLayout from '../layouts/PublicLayout';
@@ -6,48 +6,47 @@ import PublicLayout from '../layouts/PublicLayout';
 const releases = [
   {
     version: 'v2.4.0',
-    date: 'April 19, 2026',
+    date: 'April 28, 2026',
     label: 'Latest',
     labelColor: 'text-violet-400 bg-violet-500/10 border-violet-500/20',
     changes: [
-      { type: 'feature', icon: Sparkles, text: 'Multi-scene dream visualization — chain multiple dream moments into a visual narrative.' },
-      { type: 'feature', icon: Sparkles, text: 'New "Emotion Map" view — see the emotional arc of your dream at a glance.' },
-      { type: 'improvement', icon: Zap, text: 'Reduced average generation time from 2.1s to 1.4s with updated inference pipeline.' },
-      { type: 'fix', icon: Bug, text: 'Fixed an issue where the chat history would not persist after page refresh.' },
+      { type: 'feature', icon: CheckCircle2, text: 'Real-time Bank Sync — Connect your accounts securely for instant tracking.' },
+      { type: 'feature', icon: CheckCircle2, text: 'AI Budget Forecasting — 12-month projections based on your spending habits.' },
+      { type: 'improvement', icon: TrendingUp, text: 'Optimized dashboard loading time by 60% with smart data fetching.' },
+      { type: 'fix', icon: Wrench, text: 'Resolved a bug where manual transactions were occasionally duplicated.' },
     ],
   },
   {
     version: 'v2.3.0',
-    date: 'March 28, 2026',
+    date: 'March 15, 2026',
     label: null,
     changes: [
-      { type: 'feature', icon: Sparkles, text: 'Introduced 4K image export for Luminary plan users.' },
-      { type: 'feature', icon: Sparkles, text: 'Added dark-mode-aware chat bubble styling for better readability at night.' },
-      { type: 'improvement', icon: Zap, text: 'Improved AI follow-up question logic — now asks fewer, more targeted questions.' },
-      { type: 'security', icon: Shield, text: 'Upgraded all dream data encryption to AES-256-GCM.' },
+      { type: 'feature', icon: CheckCircle2, text: 'Premium Wealth Advisor — Get 24/7 dedicated AI coaching for complex goals.' },
+      { type: 'feature', icon: CheckCircle2, text: 'PDF Reports — Export professional financial summaries for taxes or planning.' },
+      { type: 'improvement', icon: TrendingUp, text: 'Enhanced AI categorization accuracy for international transactions.' },
+      { type: 'security', icon: ShieldCheck, text: 'Implemented Multi-Factor Authentication (MFA) for all premium accounts.' },
     ],
   },
   {
-    version: 'v2.2.0',
-    date: 'March 12, 2026',
+    version: 'v2.1.0',
+    date: 'February 10, 2026',
     label: null,
     changes: [
-      { type: 'feature', icon: Sparkles, text: 'Launched WealthWise API (beta) for Luminary subscribers.' },
-      { type: 'feature', icon: Sparkles, text: 'Testimonials page — real stories from our community of dreamers.' },
-      { type: 'improvement', icon: Zap, text: 'Complete redesign of the onboarding flow for new users.' },
-      { type: 'fix', icon: Bug, text: 'Resolved theme toggle persistence bug across browser sessions.' },
+      { type: 'feature', icon: CheckCircle2, text: 'Global Currency Support — Track expenses in over 150 different currencies.' },
+      { type: 'improvement', icon: TrendingUp, text: 'Complete redesign of the transaction table for better mobile visibility.' },
+      { type: 'fix', icon: Wrench, text: 'Fixed incorrect balance calculations for users with negative income types.' },
     ],
   },
   {
     version: 'v2.0.0',
-    date: 'February 1, 2026',
+    date: 'January 5, 2026',
     label: 'Major',
     labelColor: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
     changes: [
-      { type: 'feature', icon: Sparkles, text: 'Complete platform rebuild — new React frontend with Framer Motion animations.' },
-      { type: 'feature', icon: Sparkles, text: 'Introduced Visionary and Luminary subscription tiers.' },
-      { type: 'feature', icon: Sparkles, text: 'Brand new conversational AI engine with 40% richer dream interpretation.' },
-      { type: 'improvement', icon: Zap, text: 'Mobile-first responsive design across all pages.' },
+      { type: 'feature', icon: CheckCircle2, text: 'Project Rebrand — WealthWise: From a simple tracker to a full AI coach.' },
+      { type: 'feature', icon: CheckCircle2, text: 'Introduced Tiered Pricing — Free, Pro, and Enterprise plans now live.' },
+      { type: 'improvement', icon: TrendingUp, text: 'Migrated to Llama 3.3 70B for faster and smarter AI responses.' },
+      { type: 'security', icon: ShieldCheck, text: 'Achieved SOC2 Compliance for enterprise-grade data security.' },
     ],
   },
 ];
