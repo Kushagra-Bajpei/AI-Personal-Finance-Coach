@@ -19,8 +19,6 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 // Middleware
-app.use(express.json());
-app.use(cookieParser());
 app.use(cors({
     origin: [
         'http://localhost:5173', 
@@ -28,9 +26,13 @@ app.use(cors({
         'https://ai-personal-finance-coach.vercel.app/'
     ],
     credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization']
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
+    optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
 }));
+
+app.use(express.json());
+app.use(cookieParser());
 
 // Routes
 app.use('/api/auth', authRoutes);
