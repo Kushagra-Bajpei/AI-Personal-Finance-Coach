@@ -6,7 +6,7 @@ import PublicLayout from '../layouts/PublicLayout';
 
 const posts = [
   {
-    slug: '#',
+    slug: '/blog/autonomous-finance',
     category: 'AI & Future',
     categoryColor: 'text-violet-400 bg-violet-500/10 border-violet-500/20',
     title: 'The Rise of Autonomous Finance: How AI Will Manage Your Money by 2030',
@@ -17,7 +17,7 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1200',
   },
   {
-    slug: '#',
+    slug: '/blog/dynamic-budgeting',
     category: 'Budgeting',
     categoryColor: 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
     title: 'Beyond the 50/30/20 Rule: Dynamic Budgeting for the Modern Era',
@@ -28,7 +28,7 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=1200',
   },
   {
-    slug: '#',
+    slug: '/blog/doom-spending',
     category: 'Psychology',
     categoryColor: 'text-pink-400 bg-pink-500/10 border-pink-500/20',
     title: 'The "Doom Spending" Trap: Why We Buy When We Are Stressed',
@@ -39,7 +39,7 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1512428559083-a4979b2b51ff?auto=format&fit=crop&q=80&w=1200',
   },
   {
-    slug: '#',
+    slug: '/blog/passive-income',
     category: 'Investing',
     categoryColor: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
     title: 'Passive Income Strategies for the Tech-Savvy Professional',
@@ -50,7 +50,7 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1200',
   },
   {
-    slug: '#',
+    slug: '/blog/compound-effect',
     category: 'Wealth Building',
     categoryColor: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
     title: 'The Compound Effect: Turning ₹1,000 into a Retirement Fund',
@@ -61,7 +61,7 @@ const posts = [
     image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&q=80&w=1200',
   },
   {
-    slug: '#',
+    slug: '/blog/cyber-resilience',
     category: 'Security',
     categoryColor: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20',
     title: 'Cyber-Resilience: Keeping Your Digital Assets Safe in 2026',

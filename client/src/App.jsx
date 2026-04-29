@@ -20,6 +20,7 @@ import TermsOfService from './pages/TermsOfService';
 import CookiePolicy from './pages/CookiePolicy';
 import Dashboard from './pages/Dashboard';
 import ScrollToTop from './components/ScrollToTop';
+import BlogPost from './pages/BlogPost';
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/changelog" element={<Changelog />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
