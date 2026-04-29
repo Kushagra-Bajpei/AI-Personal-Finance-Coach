@@ -20,7 +20,7 @@ const posts = [
     author: 'Dr. Sarah Chen',
     date: 'April 25, 2026',
     readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
   },
   {
     id: 'dynamic-budgeting',
@@ -36,7 +36,7 @@ const posts = [
     author: 'Marcus J. Miller',
     date: 'April 20, 2026',
     readTime: '5 min read',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop',
   },
   {
     id: 'doom-spending',
@@ -52,7 +52,7 @@ const posts = [
     author: 'Elena Rodriguez',
     date: 'April 14, 2026',
     readTime: '6 min read',
-    image: 'https://images.unsplash.com/photo-1512428559083-a4979b2b51ff?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1200&auto=format&fit=crop',
   },
   {
     id: 'passive-income',
@@ -66,7 +66,7 @@ const posts = [
     author: 'David Vance',
     date: 'April 10, 2026',
     readTime: '7 min read',
-    image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1200&auto=format&fit=crop',
   },
   {
     id: 'compound-effect',
@@ -80,7 +80,7 @@ const posts = [
     author: 'Aria Thompson',
     date: 'April 02, 2026',
     readTime: '4 min read',
-    image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1200&auto=format&fit=crop',
   },
   {
     id: 'cyber-resilience',
@@ -94,7 +94,7 @@ const posts = [
     author: 'WealthWise AI Team',
     date: 'March 25, 2026',
     readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop',
   }
 ];
 
