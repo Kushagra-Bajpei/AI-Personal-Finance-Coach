@@ -1,3 +1,3 @@
 export const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://qucikraina.onrender.com' 
+  ? 'https://ai-personal-finance-coach.onrender.com' 
   : ''; 
